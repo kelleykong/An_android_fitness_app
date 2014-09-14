@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" > 
+	          
+	<fragment
+		android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"            
+		class="com.google.android.gms.maps.MapFragment" >
+    </fragment>
+       
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >             
+
+		<TextView
+			android:id="@+id/type"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:textColor="@android:color/black" />   
+		<TextView
+			android:id="@+id/avgSpeed"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"			
+			android:textColor="@android:color/black" />
+		<TextView
+			android:id="@+id/curSpeed"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:textColor="@android:color/black" />   
+		<TextView
+			android:id="@+id/climb"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"			
+			android:textColor="@android:color/black" />	
+		<TextView
+			android:id="@+id/calorie"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:textColor="@android:color/black" />   
+		<TextView
+			android:id="@+id/distance"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"			
+			android:textColor="@android:color/black" />				
+	</LinearLayout>
+       
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal"            
+		android:layout_gravity="bottom" >
+
+		<Button
+			android:id="@+id/btnSave"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="bottom"
+			android:onClick="onSaveClicked"
+			android:text="@string/start_button_save_title" >
+		</Button>
+
+		<Button
+			android:id="@+id/btnCancel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="bottom"
+			android:onClick="onCancelClicked"
+			android:text="@string/start_button_cancel_title" >
+		</Button>
+            
+	</LinearLayout>
+</FrameLayout>    
+
+

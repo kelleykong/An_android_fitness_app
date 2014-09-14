@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Top level app definitions -->    
+
+    <string name="app_name">Lab6</string>
+    <string name="action_settings">Settings</string>
+    <string name="tabname_start">START</string>
+    <string name="tabname_history">HISTORY</string>
+    <string name="tabname_settings">SETTINGS</string>
+        
+    <!-- START -->    
+    
+    <string name="start_input_type_title">Input Type: </string>
+    <string-array name="start_input_type_entries">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+    <string name="start_activity_type_title">Activity Type: </string>
+    <string-array name="start_activity_type_entries">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>        
+    </string-array>     
+    <string name="start_button_start_title">Start</string>
+    <string name="start_button_sync_title">Sync</string>
+    
+    <string name="start_button_save_title">Save</string>
+    <string name="start_button_cancel_title">Cancel</string>
+    
+    <!-- Dialog -->    
+    <string name="alert_dialog_cancel">Cancel</string>    
+    <string name="alert_dialog_ok">OK</string>    
+    
+
+    
+    <!-- SETTINGS -->
+    
+    
+    <string name="account_preferences">ACCOUNT PREFERENCES</string>
+    <string name="title_user_profile_preference">User Profile</string>
+    <string name="summary_user_profile_preference">Names, Email, Class, etc</string>
+    <string name="title_checkbox_preference">Privacy setting</string>
+    <string name="summary_checkbox_preference">Posting your records anonymously</string>
+    <string name="account_settings_preferences">ADDITIONAL SETTINGS</string>
+    <string name="title_list_preference">Unit Preference</string>
+    <string name="summary_list_preference">Select the units in which you would like to see distance values</string>
+    <string name="title_edittext_preference">Comment</string>
+    <string name="summary_edittext_preference">Any suggestion to this course?</string>
+
+    <string name="misc_preferences">MISC.</string>
+    <string name="title_intent_preference">Class homepage</string>
+    <string name="summary_intent_preference">http://www.cs.dartmouth.edu/~campbell</string>
+
+    <string-array name="entries_list_preference">
+        <item>Metric (Kilometers)</item>
+        <item>Imperial (Miles)</item>
+    </string-array>
+
+    <string-array name="entryvalues_list_preference">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+    
+    
+    <!-- User Profile -->
+    <string name="profile_photo_file_name">profile_photo.png</string>
+    <string name="ui_profile_photo_title">Profile photo:</string>
+    <string name="ui_profile_photo_content_description">Your profile photo:</string>
+    <string name="ui_button_change_title">Change</string>
+    <string name="dialog_fragment_tag_photo_picker">dialog_fragment_photo_picker</string>
+    <string name="ui_profile_photo_picker_title">"Select profile image"</string>
+    <string-array name="ui_profile_photo_picker_items">
+        <item>Take from camera</item>
+        <item>Select from gallery</item>
+    </string-array>    
+    
+    <string name="ui_profile_name_hint">Your name here</string>
+    <string name="ui_profile_name_title">Name</string>
+    <string name="ui_profile_email_hint">Your Email here</string>
+    <string name="ui_profile_email_title">Email:</string>
+    <string name="ui_profile_phone_hint">Your phone number here</string>
+    <string name="ui_profile_phone_title">Phone:</string>
+    <string name="ui_profile_gender_title">Gender:</string>
+    <string name="ui_profile_gender_male">Male</string>
+    <string name="ui_profile_gender_female">Female</string>
+    
+    <string name="ui_profile_class_title">Class:</string>    
+    <string name="ui_profile_class_hint">e.g. 2012</string>
+    <string name="ui_profile_major_title">Major:</string>    
+    <string name="ui_profile_major_hint">Your major here</string>
+
+    <string name="ui_profile_button_save_title">Save</string> 
+    <string name="ui_profile_button_cancel_title">Cancel</string> 
+    <string name="ui_profile_toast_save_text">Profile saved</string>
+    <string name="ui_profile_toast_cancel_text">Change canceled</string>
+    
+    <!-- SharedPreferences -->
+
+    <string name="preference_name">my_shared_preferences</string>
+    <string name="preference_key_profile_name">profile_name</string>
+    <string name="preference_key_profile_email">profile_email</string>    
+    <string name="preference_key_profile_phone">profile_phone</string>
+    <string name="preference_key_profile_gender">profile_gender</string>
+    <string name="preference_key_profile_class">profile_class</string>
+    <string name="preference_key_profile_major">profile_major</string>
+
+    <!-- HistoryDetails -->
+    
+	<string name="history_activity_type_title">Activity type</string>
+	<string name="history_dateandtime_title">Date and time</string>
+	<string name="history_duration_title">Duration</string>
+	<string name="history_distance_title">Distance</string>
+	<string name="history_menu_delete">DELETE</string>
+		    
+	<!-- App engine -->
+    <string name="server_addr">http://10.31.224.180:8888</string>	
+	
+</resources>
